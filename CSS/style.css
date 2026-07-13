@@ -1,0 +1,672 @@
+/* global section */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear-fix{
+    clear: both;
+}
+/* ------------------------------------------------------------ */
+/* hero section */
+
+.item1{
+    float: left;
+}
+.item1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    width: 500px;
+    margin-top: 80px;
+}
+.item1 p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+    margin-top: 24px;
+}
+ .btn1{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin-top: 32px;
+    margin-right: 16px;
+    padding: 20px 16px;
+    width: 250px;
+}
+.btn2{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 20px 16px;
+    width: 150px;
+    background-color: white;
+}
+.hero-img img{
+    width: 400px;
+    border-radius: 8px;
+    margin-top: 120px;
+    margin-left: 96px;
+}
+
+/* ------------------------------------------------------------ */
+/* about us section */
+
+.item2 h2{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 158px;
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+.item2 p{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 750px;
+    margin-bottom: 64px;
+    
+}
+
+/* ------------------------------------------------------------ */
+/* icon section */
+
+.vips{
+    margin: auto;
+}
+.vip1{
+    background-color: rgb(161, 161, 255);
+    float: left;
+    border-radius: 16px;
+    padding: 32px;
+    width: 270px;
+    margin-right: 32px;
+}
+.icon1{
+    border: 12px rgb(32, 32, 183) solid;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    margin: auto;
+    
+}
+.prem-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+   margin: auto;
+   margin-top: 24px;
+   margin-bottom: 16px;
+}
+.prem-text p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+
+
+.vip2{
+    background-color: rgb(127, 230, 127);
+    float: left;
+    border-radius: 16px;
+    padding: 32px;
+    width: 270px;
+    padding-bottom: 14px;
+    margin-right: 32px;
+}
+.icon2{
+    border: 12px rgb(5, 55, 5) solid;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    margin: auto;
+    
+}
+.expert-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+   margin: auto;
+ margin-bottom: 16px;
+ margin-top: 24px;
+}
+.expert-text p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.vip3{
+    background-color: pink;
+    float: left;
+    border-radius: 16px;
+    padding: 32px;
+    width: 270px;
+    
+}
+.icon3{
+    border: 12px rgb(189, 34, 60) solid;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    margin: auto;
+    
+}
+.flex-hours-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+   margin: auto;
+ margin-bottom: 16px;
+ margin-top: 24px;
+}
+.flex-hours-text p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+   
+}
+
+/* ------------------------------------------------------------ */
+/* more about us section */
+
+.more-about-img img{
+    width: 500px;
+    border-radius: 8px;
+    margin-top: 64px;
+    float: left;
+}
+.more-about-us{
+    float: left;
+    margin-top: 64px;
+    margin-left: 48px;
+}
+.more-about-us h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.more-about-us h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    
+
+}
+.more-about-us p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+/* ------------------------------------------------------------ */
+/* review section */
+
+.item3{
+      margin-top: 160px;
+}
+.item3 h2{
+text-align: center;
+margin: auto;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.item3 p{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+
+/* ------------------------------------------------------------ */
+/* review section imgs */
+
+.person1{
+    background-color: rgb(91, 91, 189);
+    width: 350px;
+    border-radius: 12px;
+    float: left;
+
+}
+.person1-img img{
+    width:60px ;
+   float: left;
+margin: 33px 16px 33px 33px;
+    border-radius: 118px;
+   
+}
+   
+.person1 h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 39px;
+    margin-right:86px ;
+    float: left;
+}
+.person1 p{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+.pragraph1{
+    margin-bottom: 30px;
+    float: left;
+}
+.pragraph2{
+text-align: left;
+margin-left: 33px;
+margin-right: 33px;
+padding-bottom: 33px;
+}
+
+
+.person2{
+    background-color: rgb(85, 185, 85);
+    width: 350px;
+    border-radius: 12px;
+float: left;
+margin-left: 32px;
+}
+.person2-img img{
+    width:60px ;
+   float: left;
+margin: 33px 16px 33px 33px;
+    border-radius: 118px;
+   
+}
+   
+.person2 h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 39px;
+    margin-right:86px ;
+    float: left;
+}
+.person2 p{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+.prg1{
+    margin-bottom: 30px;
+    float: left;
+}
+.prg2{
+text-align: left;
+margin-left: 33px;
+margin-right: 33px;
+padding-bottom: 33px;
+}
+
+
+.person3{
+    background-color: rgb(255, 141, 160);
+    width: 350px;
+    border-radius: 12px;
+float: left;
+margin-left: 32px;
+}
+.person3-img img{
+    width:60px ;
+   float: left;
+margin: 33px 16px 33px 33px;
+    border-radius: 118px;
+   
+}
+   
+.person3 h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 39px;
+    margin-right:86px ;
+    float: left;
+}
+.person3 p{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+.pra1{
+    margin-bottom: 30px;
+    float: left;
+}
+.pra2{
+text-align: left;
+margin-left: 33px;
+margin-right: 33px;
+padding-bottom: 33px;
+}
+
+/* ------------------------------------------------------------ */
+/* bar text section  */
+
+.bar{
+    background-color: rgb(122, 122, 240);
+    width: 80%;
+    border-radius: 16px;
+   float: left;
+    margin-top: 64px;
+    padding: 49px;
+  
+}
+.text1{
+    float: left;
+}
+.text2{
+    float: left;
+    margin-left: 32px;
+}
+.text3{
+    float: left;
+    margin-left: 32px;
+}
+.text4{
+    float: left;
+    margin-left: 32px;
+}
+
+.text1 .tx1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  
+}
+.text1 .tx2{
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+.text2 .tx3{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+   
+}
+.text2 .tx4{
+    font-size: 16px;
+    font-weight: 400;
+ 
+}
+.text3 .tx5{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    
+}
+.text3 .tx6{
+    font-size: 16px;
+    font-weight: 400;
+ 
+}
+.text4 .tx7{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  
+}
+.text4 .tx8{
+    font-size: 16px;
+    font-weight: 400;
+ 
+}
+
+/* ------------------------------------------------------------ */
+/* form section  */
+
+.item4{
+   
+    margin: auto;
+    text-align: center;
+    margin-top: 160px;
+}
+.item4 h2{
+    font-size: 36px;
+    font-weight: 700;
+ padding-bottom: 24px;
+ text-align: center;
+  
+}
+.item4 p{
+    font-size: 20px;
+    font-weight: 400;
+  margin: auto;
+  width: 670px;
+  
+}
+
+.form{
+    float: left;
+    margin: auto;
+   width: 100%;
+}
+.first-name{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 96px;
+    display: block;
+}
+#user-first-name{
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 100%;
+}
+.last-name{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    display: block;
+}
+#user-last-name{
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 100%;
+}
+.email{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+#user-email{
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 100%;
+}
+.phone{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+#user-phone{
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 100%;
+}
+.membership{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+#user-membership{
+font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 100%;
+}
+.goals{
+       font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+#user-goals{
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 100%;
+}
+.submit{
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 16px 32px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    background-color: black;
+    color: white;
+ 
+}
+.form{
+    float: left;
+    margin: auto;
+   width: 100%;
+}
+.form p{
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 128px;
+}
+
+/* ------------------------------------------------------------ */
+/* foot section  */
+
+.section5{
+    background-color: black;
+    color:white;
+    
+}
+.item5{
+    float: left;
+
+}
+.word1{
+    margin-bottom: 34px;
+}
+.word1 h3{
+  
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 16px;
+   margin-top: 80px;
+   
+
+}
+.word1 p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    width: 550px;
+}
+.links a{
+    padding-right: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+.word2{
+    margin-bottom: 34px;
+}
+.word2 h4{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.word3 h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-bottom: 16px;
+}
+span{
+font-size: 16px;
+font-weight: 400;
+}
+.sp1{
+    margin-top: 16px;
+    margin-bottom: 8px;
+display: block;
+}
+.sp2{
+    margin-top: 16px;
+    margin-bottom: 8px;
+display: block;
+}
+.sp3{
+    margin-top: 16px;
+    margin-bottom: 8px;
+display: block;
+}
+.sp4{
+    margin-top: 16px;
+    margin-bottom: 8px;
+display: block;
+}
+.sp5{
+    margin-top: 16px;
+    margin-bottom: 8px;
+display: block;
+}
+.sp6{
+    margin-top: 16px;
+    margin-bottom: 8px;
+display: block;
+}
+.word4 p{
+     font-size: 14px;
+     font-weight: 400;
+     margin-bottom: 24px;
+     margin-top: 34px;
+}
+.word4 a{
+    margin-bottom: 24px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
